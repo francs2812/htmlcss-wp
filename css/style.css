@@ -8,9 +8,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 .container {
-    width: 1300px;
+    width: 60%;
     background-color: white;
-    padding: 20px 131px;
+    padding: 20px 4%;
     margin: 40px auto;
 }
 
@@ -47,19 +47,23 @@ nav>a {
     height: 90%;
     background-size: cover;
     background-image: url(../img/banner.jpg);
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .text_white{
     color: white;
     background-color: rgba(0, 0, 0, 0.3) ;
     height: 100%;
     border-radius: 25px;
-    
+    padding-top: 29%;
+    padding-right: 47%;
+    padding-left: 30px;
 }
+
 /* main */
 main{
+    height: 580px;
     margin-top: 30px;
-    background-color: #0086FE;
+    /* background-color: #0086FE; */
     padding-bottom: 30px;
 }
 
@@ -68,30 +72,27 @@ main>.top {
     background-color: white;
     margin-bottom: 30px;
 }
-main .top > p{
+main p{
     color: gray;
 }
 
 aside.left, aside.right{
-    width: 200px;
+    width: 24%;
     height: 470px;
-    background-color: #ABCFE7;
+    /* background-color: #ABCFE7; */
     float: left;
 }
-main img {
-    display: inline-block;
+img{
     width: 100%;
+    height: 40%;
+    background-size: cover;
     border-radius: 25px;
-    
-}
-.immage {
-    background-color: rgba(0, 0, 0, 0.3) ;
 }
 
 div.centre {
-    width: 578px;
+    width: 46%;
     height: 470px;
-    background-color: #ABCFE7;
+    /* background-color: #ABCFE7; */
     float: left;
     margin: 0 30px;
 }
@@ -100,5 +101,6 @@ div.centre {
 footer {
     height: 50px;
     margin-top: 30px;
-    background-color:#8405F0 ;
+    text-align: center;
+
 }
