@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 1300px;
+    background-color: white;
+    padding: 20px 131px;
+    margin: 40px auto;
+}
+
+/* commit */
+.clearfix ::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* header */
+header {
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo.png);
+}
+
+/* div */
+.container > #container_2 {
+    height: 600px;
+    margin-top: 30px;
+}
+
+nav>a {
+    float: left;
+    padding: 10px 10px 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9f9f9f;
+}
+
+#container_2 .immage {
+    height: 90%;
+    background-size: cover;
+    background-image: url(../img/banner.jpg);
+    border-radius: 25px;
+}
+.text_white{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3) ;
+    height: 100%;
+    border-radius: 25px;
+    
+}
+/* main */
+main{
+    margin-top: 30px;
+    background-color: #0086FE;
+    padding-bottom: 30px;
+}
+
+main>.top {
+    height: 80px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+main .top > p{
+    color: gray;
+}
+
+aside.left, aside.right{
+    width: 200px;
+    height: 470px;
+    background-color: #ABCFE7;
+    float: left;
+}
+main img {
+    display: inline-block;
+    width: 100%;
+    border-radius: 25px;
+    
+}
+.immage {
+    background-color: rgba(0, 0, 0, 0.3) ;
+}
+
+div.centre {
+    width: 578px;
+    height: 470px;
+    background-color: #ABCFE7;
+    float: left;
+    margin: 0 30px;
+}
+
+/* footer */
+footer {
+    height: 50px;
+    margin-top: 30px;
+    background-color:#8405F0 ;
+}
